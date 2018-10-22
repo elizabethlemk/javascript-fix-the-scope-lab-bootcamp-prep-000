@@ -24,9 +24,4 @@ var funkyFunction = function() {
 // NOTE: you only need to modify the code below this line.
 
 
-function theFunk(){
-  var theFunk = funkyFunction()
-  return function()
-}
-
-console.log(theFunk)
+var theFunk() = funkyFunction()
